@@ -17,7 +17,6 @@ namespace NetTWO_SortedList
             string license = "";
             do
             {
-
                 Console.WriteLine("Enter License #: ");
                 license = Console.ReadLine();
                 if(!licenseList.ContainsKey(license))
